@@ -1,3 +1,4 @@
+/*
 let score = "30Vishnu";
 
 console.log(typeof score); //output: number
@@ -44,6 +45,7 @@ object=> 0 when change in type is number
 
 
 */
+/*
 console.log(
   "======================================================================="
 );
@@ -51,6 +53,7 @@ let isLoggedIn = null;
 let booleanIsLoggedIn = Boolean(isLoggedIn);
 console.log(typeof booleanIsLoggedIn); //output: boolean
 console.log("booleanIsLoggedIn:", booleanIsLoggedIn); //output: booleanIsLoggedIn: true
+*/
 
 /*
 1=> true when change in type is boolean
@@ -62,6 +65,8 @@ console.log("booleanIsLoggedIn:", booleanIsLoggedIn); //output: booleanIsLoggedI
 "null"=> false when change in type is boolean
 
 */
+
+/*
 console.log(
   "======================================================================="
 );
@@ -74,3 +79,42 @@ console.log(typeof string_Value); //output: string
 console.log(
   "======================================================================="
 );
+*/
+/*
+
+*/
+//**********************************************Operations********************************
+// const num1 = 10;
+// const new_num1 = -num1;
+// console.log("new_num1:", new_num1); //output: new_num1: -10
+
+// console.log(2 + 2); //output: 4
+// console.log(2 - 2); //output: 0
+// console.log(2 * 2); //output: 4
+// console.log(2 / 2); //output: 1
+// console.log(2 ** 2); //output: 4
+// console.log(2 % 2); //output: 0
+// console.log(2 ** 3); //output: 8
+// console.log(5 % 3); //output: 2
+
+// console.log(+true); //output: 1
+// console.log(+false); //output: 0
+// console.log(+null); //output: 0
+// console.log(+undefined); //output: NaN
+// console.log(+NaN); //output: NaN
+// console.log(+[]); //output: 0
+// console.log(+{}); //output: NaN
+// console.log(+[1, 2]); //output: NaN
+// console.log(+[1]); //output: 1
+// console.log(+[0]); //output: 0
+
+//postfix and prefix examples
+let x = 5;
+let y = x++; //postfix increment
+console.log("x:", x); //output: x: 6
+console.log("y:", y); //output: y: 5
+
+//how ?
+//y is assigned the value of x before x is incremented
+//so y is 5 and x is incremented to 6
+//postfix increment returns the original value of x before incrementing
