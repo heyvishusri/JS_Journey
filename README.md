@@ -1,4 +1,4 @@
-# JavaScript Basics: Variables, Data Types & Conversion Operations
+# JavaScript Basics: Variables, Data Types, Operators & Conversion Operations
 
 ## 📌 **1. Variables in JavaScript**  
 Variables are used to store data and are declared using `var`, `let`, or `const`.  
@@ -42,7 +42,52 @@ JavaScript has two categories of data types: **Primitive** and **Non-Primitive (
 
 ---
 
-## 📌 **3. Type Conversion in JavaScript**  
+## 📌 **3. Operators in JavaScript**
+Operators are used to perform operations on variables and values.
+
+### **Arithmetic Operators**
+| Operator | Description | Example |
+|----------|-------------|---------|
+| `+` | Addition | `5 + 3` → `8` |
+| `-` | Subtraction | `10 - 4` → `6` |
+| `*` | Multiplication | `6 * 2` → `12` |
+| `/` | Division | `10 / 2` → `5` |
+| `%` | Modulus (Remainder) | `10 % 3` → `1` |
+| `**` | Exponentiation | `2 ** 3` → `8` |
+
+### **Comparison Operators**
+| Operator | Description | Example |
+|----------|-------------|---------|
+| `==` | Equal to | `5 == "5"` → `true` |
+| `===` | Strict equal to | `5 === "5"` → `false` |
+| `!=` | Not equal to | `5 != "5"` → `false` |
+| `!==` | Strict not equal | `5 !== "5"` → `true` |
+| `>` | Greater than | `10 > 5` → `true` |
+| `<` | Less than | `5 < 10` → `true` |
+| `>=` | Greater than or equal to | `10 >= 10` → `true` |
+| `<=` | Less than or equal to | `5 <= 5` → `true` |
+
+### **Logical Operators**
+| Operator | Description | Example |
+|----------|-------------|---------|
+| `&&` | Logical AND | `(5 > 3 && 10 > 5)` → `true` |
+| `||` | Logical OR | `(5 > 10 || 10 > 5)` → `true` |
+| `!` | Logical NOT | `!(5 > 3)` → `false` |
+
+### **Assignment Operators**
+| Operator | Description | Example |
+|----------|-------------|---------|
+| `=` | Assigns value | `x = 10` |
+| `+=` | Adds and assigns | `x += 5` (same as `x = x + 5`) |
+| `-=` | Subtracts and assigns | `x -= 3` |
+| `*=` | Multiplies and assigns | `x *= 2` |
+| `/=` | Divides and assigns | `x /= 2` |
+| `%=` | Modulus and assigns | `x %= 2` |
+| `**=` | Exponentiation and assigns | `x **= 2` |
+
+---
+
+## 📌 **4. Type Conversion in JavaScript**  
 JavaScript allows converting between different data types explicitly and implicitly.
 
 ### **Implicit Type Conversion (Type Coercion)**  
@@ -77,6 +122,7 @@ console.log(typeof num); // "number"
 ## 📌 **Summary**  
 ✅ Variables are declared using `var`, `let`, and `const`.  
 ✅ JavaScript has primitive (String, Number, Boolean, etc.) and reference types (Objects, Arrays, Functions).  
+✅ JavaScript includes arithmetic, comparison, logical, and assignment operators.  
 ✅ Implicit conversion happens automatically, while explicit conversion requires functions like `Number()`, `String()`, etc.  
 
 ---
